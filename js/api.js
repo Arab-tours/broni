@@ -19,6 +19,9 @@
     TOO_MANY_BOOKINGS: 'На этот номер уже 5 активных броней.',
     TABLE_NOT_FOUND: 'Стол не найден — обновите страницу.',
     NETWORK: 'Нет связи с сервером. Проверьте интернет и попробуйте ещё раз.',
+    bookings_phone_check: 'Проверьте номер телефона: нужно 10–20 цифр.',
+    bookings_guest_name_check: 'Имя должно быть от 2 до 80 символов.',
+    bookings_comment_check: 'Комментарий не длиннее 300 символов.',
   };
   function humanError(e) {
     const msg = String((e && e.message) || e || '');

@@ -1,8 +1,8 @@
 // Service worker: оболочка приложения работает офлайн, данные о бронях — всегда из сети.
-const VERSION = 'stolik-v1';
+const VERSION = 'stolik-v2';
 const SHELL = [
-  './', 'index.html', 'manifest.json', 'css/style.css?v=1',
-  'js/config.js?v=1', 'js/data.js?v=1', 'js/api.js?v=1', 'js/app.js?v=1',
+  './', 'index.html', 'manifest.json', 'css/style.css?v=2',
+  'js/config.js?v=2', 'js/data.js?v=2', 'js/api.js?v=2', 'js/app.js?v=2',
   'icons/icon-192.png', 'icons/icon-512.png',
 ];
 
